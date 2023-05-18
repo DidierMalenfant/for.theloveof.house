@@ -1,0 +1,9 @@
+{% assign t = site.data.locales[page.lang][page.lang] %}
+<!DOCTYPE html>
+<html {% if page.direction == "rtl" %}dir="rtl" {% endif %}lang="{{ page.lang }}">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Refresh" content="0; url='https://www.twitch.tv/theloveofhouse'" />
+    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}" type="text/css" media="screen">
+  </head>
+</html>
